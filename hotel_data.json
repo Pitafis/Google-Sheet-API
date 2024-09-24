@@ -1,0 +1,62 @@
+[
+  {
+      "room_type": "Single",
+      "price_per_night": 100,
+      "availability": true,
+      "max_occupancy": 1
+  },
+  {
+      "room_type": "Double",
+      "price_per_night": 150,
+      "availability": false,
+      "max_occupancy": 2
+  },
+  {
+      "room_type": "Suite",
+      "price_per_night": 300,
+      "availability": true,
+      "max_occupancy": 4
+  },
+  {
+      "room_type": "Deluxe",
+      "price_per_night": 200,
+      "availability": true,
+      "max_occupancy": 3
+  },
+  {
+      "room_type": "Family",
+      "price_per_night": 250,
+      "availability": false,
+      "max_occupancy": 5
+  },
+  {
+      "room_type": "Penthouse",
+      "price_per_night": 500,
+      "availability": true,
+      "max_occupancy": 6
+  },
+  {
+      "room_type": "Economy",
+      "price_per_night": 80,
+      "availability": true,
+      "max_occupancy": 2
+  },
+  {
+      "room_type": "Studio",
+      "price_per_night": 120,
+      "availability": true,
+      "max_occupancy": 2
+  },
+  {
+      "room_type": "King",
+      "price_per_night": 180,
+      "availability": false,
+      "max_occupancy": 3
+  },
+  {
+      "room_type": "Queen",
+      "price_per_night": 160,
+      "availability": true,
+      "max_occupancy": 3
+  }
+]

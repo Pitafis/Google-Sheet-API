@@ -2,18 +2,16 @@ from flask import Flask, jsonify, request
 import json
 import os
 import requests
-from pyngrok import ngrok
 from google.oauth2.service_account import Credentials
 import gspread
 import pandas as pd
 
-port_no = 5004
+
 
 app = Flask(__name__)
 
 # Set your ngrok auth token and establish a public URL
-ngrok.set_auth_token("2lETlKZx1bORfyNwAr2AEym1opN_3vmdTzYSn1eKYrGPNoiob")
-public_url = ngrok.connect(port_no)
+
 
 DATA_FILE = 'hotel_data.json'
 APPOINTMENTS_FILE = 'reservations.json' 
@@ -211,5 +209,4 @@ def book_appointment():
 
 
 if __name__ == '__main__':
-    print(f"Public URL: {public_url}")
-    app.run(port=port_no)
+    app.run(debug=False,host='0.0.0.0')
